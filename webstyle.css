@@ -1,0 +1,41 @@
+/* use #fffcf2, #279156, #0B4737, #0D1821, #629BBC as web colors */
+body {
+    background-color: #484848;
+}
+div {
+    background-color: #279156;
+}
+/* .poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+*/
+.menu-format {
+    background-color: #fffcf2;
+}
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 32px;
+    top: 0;
+    width: 100%;
+}
+header p {
+    text-align: center;
+
+}
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+}
+.nav-links li {
+    list-style: none;
+}
