@@ -1,6 +1,6 @@
 /* use #fffcf2, #279156, #0B4737, #0D1821, #629BBC as web colors */
 body {
-    background-color: #484848;
+    margin: 0;
 }
 div {
     background-color: #279156;
@@ -19,6 +19,7 @@ div {
 */
 .menu-format {
     background-color: #fffcf2;
+    color:#484848;
 }
 header {
     display: flex;
@@ -35,7 +36,22 @@ header p {
 .nav-links {
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 .nav-links li {
     list-style: none;
+}
+#home-body {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    color: #fffcf2;
+}
+.main-body-text {
+    font-size: 3vh;
+    font-family: "Raleway";
+}
+footer {
+    background-color: #484848;
+    color: #fffcf2;
 }
