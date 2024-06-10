@@ -1,6 +1,9 @@
 /* use #fffcf2, #279156, #0B4737, #0D1821, #629BBC as web colors */
 body {
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 div {
     background-color: #279156;
@@ -46,7 +49,9 @@ header p {
     flex-direction: column;
     text-align: justify;
     color: #fffcf2;
+    flex: 1 1 auto;
 }
+/*  height: 100%; 'apply this to above style if any errors are encountered' */
 .main-body-text {
     font-size: 3vh;
     font-family: "Raleway";
