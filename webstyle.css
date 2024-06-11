@@ -1,12 +1,10 @@
 /* use #fffcf2, #279156, #0B4737, #0D1821, #629BBC as web colors */
 body {
     margin: 0;
+    overflow: scroll;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-}
-div {
-    background-color: #279156;
 }
 /* .poppins-light {
   font-family: "Poppins", sans-serif;
@@ -30,11 +28,19 @@ header {
     align-items: center;
     font-size: 32px;
     top: 0;
-    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%
 }
-header p {
+header img {
+    width: 400px;
+    height: auto;
+}
+/* header p {
     text-align: center;
 
+}*/
+nav {
+    background-color: #fffcf2;
 }
 .nav-links {
     display: flex;
@@ -43,6 +49,22 @@ header p {
 }
 .nav-links li {
     list-style: none;
+}
+/* change padding size */
+.nav-links li a {
+    color: #0D1821;
+    padding: 25px 50px;
+    text-decoration: none;
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 25px;
+}
+.nav-links li a:hover {
+    background-color: #0D1821;
+    color: #fffcf2;
+}
+div {
+    background-color: #279156;
 }
 #home-body {
     display: flex;
@@ -53,10 +75,10 @@ header p {
 }
 /*  height: 100%; 'apply this to above style if any errors are encountered' */
 .main-body-text {
-    font-size: 3vh;
+    font-size: 16pt;
     font-family: "Raleway";
 }
 footer {
-    background-color: #484848;
+    background-color: #0D1821;
     color: #fffcf2;
 }
