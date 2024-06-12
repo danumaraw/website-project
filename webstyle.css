@@ -1,7 +1,7 @@
 /* use #fffcf2, #279156, #0B4737, #0D1821, #629BBC as web colors */
 body {
     margin: 0;
-    overflow: scroll;
+    overflow: auto;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -44,7 +44,7 @@ nav {
 }
 .nav-links {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 }
 .nav-links li {
@@ -53,7 +53,9 @@ nav {
 /* change padding size */
 .nav-links li a {
     color: #0D1821;
-    padding: 25px 50px;
+    box-sizing: border-box;
+    height: 100%;
+    padding: max-content;
     text-decoration: none;
     text-align: center;
     font-family: "Poppins";
@@ -66,7 +68,7 @@ nav {
 div {
     background-color: #279156;
 }
-#home-body {
+.main-body-style {
     display: flex;
     flex-direction: column;
     text-align: justify;
@@ -78,7 +80,49 @@ div {
     font-size: 16pt;
     font-family: "Raleway";
 }
+/* product page body styling */
+#product-body-style {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+}
 footer {
     background-color: #0D1821;
     color: #fffcf2;
+}
+.product-card {
+    background-color:#fffcf2;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+}
+.product-card img {
+    width: 100%;
+    height: auto;
+}
+.product-details {
+    font-family: "Raleway";
+    font-size: 22px;
+}
+.product-price {
+    font-family: "Poppins";
+    font-size: 26px;
+    font-weight: bold;
+}
+.product-cartadd-button {
+    border: none;
+    outline: 0;
+    padding: 10px;
+    color: #fffcf2;
+    background-color: #629bbc;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 22px;
+}
+.product-cartadd-button:hover {
+  opacity: 0.8;
 }
