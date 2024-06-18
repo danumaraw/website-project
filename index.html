@@ -11,8 +11,9 @@
 </head>
 <body>
     <header class="menu-format">
-          <img id="site-logo" src="storelogo.png" alt="The Nature Store">
-          <a href="cart.html"><img  src="Shopping_cart_logo.png" alt="Online Cart" style="width: 35px; height: auto;"><span>1</span></a>
+      <div></div>
+      <img id="site-logo" src="storelogo.png" alt="The Nature Store">
+      <a class="site-cart" href="cart.html"><img  src="Shopping_cart_logo.png" alt="Online Cart" style="width: 40px; height: auto;"><span>0</span></a>
     </header>
     <nav>
         <ul class="nav-links">
@@ -32,19 +33,17 @@
             Enim ut sem viverra aliquet eget. Consectetur adipiscing elit duis tristique sollicitudin. 
             Pellentesque habitant morbi tristique senectus.
              Consectetur adipiscing elit ut aliquam purus sit amet luctus venenatis.
-             <br>
-             Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-            Amet purus gravida quis blandit turpis cursus in hac. Hac habitasse 
-            platea dictumst quisque. Diam maecenas ultricies mi eget mauris pharetra. 
-            Donec adipiscing tristique risus nec feugiat in fermentum posuere. Sed enim ut sem viverra aliquet eget sit. 
-            Enim ut sem viverra aliquet eget. Consectetur adipiscing elit duis tristique sollicitudin. 
-            Pellentesque habitant morbi tristique senectus.
-             Consectetur adipiscing elit ut aliquam purus sit amet luctus venenatis.
         </p>
+        <br>
+        <div class="home-button" onclick="HomeButton()">Latest items</div>
     </div>
     <footer>
         <p style="opacity: 0.7; margin-left: 0.5em;">All images taken from Freepik</p>
     </footer>
+    <script>
+        function HomeButton() {
+            window.location.href = "products.html";
+        }
+    </script>
 </body>
 </html>
