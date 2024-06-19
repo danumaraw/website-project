@@ -13,7 +13,7 @@
     <header class="menu-format">
         <div></div>
         <img id="site-logo" src="storelogo.png" alt="The Nature Store">
-        <a class="site-cart" href="cart.html"><img  src="Shopping_cart_logo.png" alt="Online Cart" style="width: 40px; height: auto;"><span>0</span></a>
+        <a class="site-cart" href="cart.html"><img  src="Shopping_cart_logo.png" alt="Online Cart" style="width: 40px; height: auto;"><span class="item-amount">0</span></a>
   </header>
     <nav>
         <ul class="nav-links">
@@ -56,5 +56,16 @@
     <footer>
         <p style="opacity: 0.7; margin-left: 0.5em;">All images taken from Freepik</p>
     </footer>
+    <script>
+        const additem = document.getElementsByClassName("product-cartadd-button");
+        const amountContent = document.querySelector(".item-amount");
+        let counter = 0;
+
+        additem.addEventListener("click", () => {
+            counter++;
+            amountContent.textContent = counter;
+        });
+
+    </script>
 </body>
 </html>
