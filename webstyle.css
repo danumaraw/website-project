@@ -6,36 +6,17 @@ body {
     flex-direction: column;
     min-height: 100vh;
 }
-/* .poppins-light {
-  font-family: "Poppins", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-}
-
-.poppins-light-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 300;
-  font-style: italic;
-}
-*/
 .menu-format {
     background-color: #fffcf2;
-    color:#484848;
 }
 /* header styling */
 header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-size: 32px;
     padding-top: 2%;
     padding-bottom: 2%
 }
-/*header img {
-    width: 400px;
-    height: auto;
-}
-*/
 header div {
     height: 50px;
     width: 50px;
