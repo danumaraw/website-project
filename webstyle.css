@@ -73,7 +73,7 @@ nav {
 }
 .nav-links {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
 }
 .nav-links li {
@@ -82,8 +82,6 @@ nav {
 /* change padding size */
 .nav-links li a {
     color: #0D1821;
-    box-sizing: border-box;
-    height: 100%;
     padding: 1em;
     text-decoration: none;
     text-align: center;
@@ -100,16 +98,21 @@ nav {
 .main-body-style {
     display: flex;
     flex-direction: column;
-    text-align: justify;
     background-color: #279156;
     color: #fffcf2;
     padding: 5px 20px;
     flex: 1 1 auto;
 }
 /*  height: 100%; 'apply this to above style if any errors are encountered' */
+.main-body-style h2 {
+    font-size: 2em;
+    font-family: 'Poppins';
+    font-weight: 600;
+}
 .main-body-text {
-    font-size: 16pt;
+    font-size: 24px;
     font-family: "Raleway";
+    text-align: left;
 }
 /* product page body styling */
 #product-body-style {
@@ -136,7 +139,6 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 1em;
 }
 .home-button:hover {
     background-color: #584e41;
