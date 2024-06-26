@@ -30,7 +30,7 @@
             <p class="product-details">Potted fiddle leaf fig plant</p>
             <span class="product-stock-check">In Stock</span>
             <p class="product-price">$7.00</p>
-            <button class="product-cartadd-button"><span>Add to Cart</span></button>
+            <button class="product-cartadd-button" onclick="Cartdirect()"><span>Add to Cart</span></button>
         </div>
         <div class="product-card">
             <img src="large-indoor-plant.png" alt="indoor-plant-L">
@@ -67,6 +67,9 @@
             amountContent.textContent = counter;
         });
 
+        function Cartdirect() {
+            window.location.href = "cart.html";
+        }
     </script>
 </body>
 </html>

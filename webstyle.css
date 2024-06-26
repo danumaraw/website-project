@@ -26,6 +26,11 @@ header #site-logo {
     width: 400px;
     height: auto;
 }
+@media screen and (max-width: 768px){
+    header #site-logo {
+        width: 50vw;
+    }
+}
 header .site-cart {
     text-decoration: none;
     cursor: pointer;
@@ -68,7 +73,7 @@ nav {
     text-align: center;
     font-family: "Poppins";
     font-size: 25px;
-    transition: color 0.3s, text-decoration 0.3s;
+    transition: color 0.3s, text-decoration 0.3s ease;
 }
 .nav-links li a:hover {
     color: #4b4237;
@@ -193,3 +198,4 @@ footer {
     width: 10vw;
     border-radius: 5%;
 }
+
