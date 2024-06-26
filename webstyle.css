@@ -120,6 +120,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 2em;
 }
 .home-button:hover {
     background-color: #584e41;
